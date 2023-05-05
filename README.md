@@ -34,8 +34,14 @@ Python is used to program the server as its ease of learning and compatibility o
 
 1. First, we have to install FreeBSD in a virtual machine. This time, we are using VirtualBox to do this task.
 
-2. Install the operating system. In this documentation, we are not going to discuss FreeBSD installation in depth. Make sure to follow every step of installation. If you are on doubt, you may choose the default option, or please refer to installation guide.
+2. Install the operating system. In this documentation, we are not going to discuss FreeBSD installation in depth. Make sure to follow every step of installation. If you are on doubt, you may choose the default option, or please refer to installation guide. 
     
     note: Make sure IPv4 and DHCP connection is enabled for the system.
     
-3. To establish connection between host machine to the guest VM, 
+3. To establish connection between host machine to the guest VM, in the network settings of the VM, please change Adapter 1 option to Host-Only Adapter. If you don't have any adapter yet, you may create a new adapter in Host Network Manager, and make sure the DHCP Server option is checked. For other options, please keep them in default setting.
+
+4. In the FreeBSD guest VM, make sure Python is installed. You can decide either using `pkg` or ports to install `python`. A text editor such as `vim` is needed as well to write the server.
+
+5. Before running the server, please note that the HTML file and the server program is at the same directory.
+
+6. In the host machine, 
