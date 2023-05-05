@@ -12,7 +12,7 @@ Group members:
 
 In this project, we are making a simple web server written in Python, running on a FreeBSD virtual machine. Here, we are going to demonstrate a network communication between two hosts (Linux desktop and a FreeBSD guest VM) using TCP connection. The Linux desktop acts as a client while the FreeBSD guest VM acts as the server to handle client's request.
 
-## Why FreeBSD
+## Why FreeBSD?
 
 There are several reason why do we choose FreeBSD as our server operating system:
 
